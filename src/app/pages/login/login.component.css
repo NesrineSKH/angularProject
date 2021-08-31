@@ -1,0 +1,50 @@
+.example-card {
+    width: 500px;
+    
+  }
+  
+  .center-content
+  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .example-card
+  {
+    box-shadow: 0 19px 38px rgb(35, 110, 172), 0 15px 12px rgb(105, 126, 212);
+   background-color: azure;
+
+  }
+  .ok{
+      text-align: center;
+    
+  }
+
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  .example-button-row
+  {
+   
+    margin-left: 40%;
+   
+    
+ 
+    
+    
+  }
