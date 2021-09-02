@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { LoginService} from 'src/app/services/login.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   hide = true;
   checked = false;
-  constructor() { }
+  constructor( private log:LoginService) { }
 
   ngOnInit(): void {
   }

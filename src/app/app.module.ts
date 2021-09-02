@@ -15,6 +15,7 @@ import { ChatComponent } from './pages/chat/chat.component';
 
 import { RouterModule } from '@angular/router';
 import {MatDividerModule} from '@angular/material/divider';
+import { SocketioService } from './socketio.service';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import {MatDividerModule} from '@angular/material/divider';
 
  
   
-  providers: [],
+  providers: [SocketioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
