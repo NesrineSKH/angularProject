@@ -14,7 +14,7 @@ export class SocketioService {
   
 
  constructor() { 
-   this.socket= io(this.url);
+  //  this.socket= io(this.url);
  }
 
 listen(eventName: string)

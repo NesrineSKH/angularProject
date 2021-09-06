@@ -16,6 +16,7 @@ import { ChatComponent } from './pages/chat/chat.component';
 import { RouterModule } from '@angular/router';
 import {MatDividerModule} from '@angular/material/divider';
 import { SocketioService } from './socketio.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,8 @@ import { SocketioService } from './socketio.service';
     MatCheckboxModule,
     MatButtonModule,
     
+    HttpClientModule,
+
     FormsModule,
     ReactiveFormsModule,
     MatDividerModule,
@@ -42,7 +45,8 @@ import { SocketioService } from './socketio.service';
     MatFormFieldModule,
     MatCardModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    
 
   ],
  

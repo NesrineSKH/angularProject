@@ -6,13 +6,14 @@ import { HttpClient } from '@angular/common/http'
 })
 export class LoginService {
 
-  private loginUrl="http://localhost:3000/api/login";
+  private loginUrl="http://localhost:8080/login";
  
   constructor(private http:HttpClient ) { }
 
   loginUser(user)
   {
     return this.http.post<any>(this.loginUrl,user)
+
   }
 
 }
